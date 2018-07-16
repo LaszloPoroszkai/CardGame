@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Cards>
+    <Card>
+        <name>Henrik VIII</name>
+        <military>5</military>
+        <intrique>5</intrique>
+        <fame>5</fame>
+        <link>images/cards/henrik8.png</link>
+    </Card>
+    <Card>
+        <name>Edward The Black Prince</name>
+        <military>6</military>
+        <intrique>1</intrique>
+        <fame>3</fame>.
+        <link>images/cards/edwardBlackPrince.png</link>
+    </Card>
+    <Card>
+        <name>Brunhilde</name>
+        <military>1</military>
+        <intrique>7</intrique>
+        <fame>7</fame>
+        <link>images/cards/brunhilde.png</link>
+    </Card>
+    <Card>
+        <name>Richard the Lionheart</name>
+        <military>4</military>
+        <intrique>3</intrique>
+        <fame>7</fame>
+        <link>images/cards/lionheart.png</link>
+    </Card>
+    <Card>
+        <name>The Black Knight</name>
+        <military>4</military>
+        <intrique>6</intrique>
+        <fame>6</fame>
+        <link>images/cards/blackKnight.png</link>
+    </Card>
+    <Card>
+        <name>Isabella of France</name>
+        <military>2</military>
+        <intrique>8</intrique>
+        <fame>4</fame>
+        <link>images/cards/isabella.png</link>
+    </Card>
+    <Card>
+        <name>Saladin</name>
+        <military>5</military>
+        <intrique>4</intrique>
+        <fame>6</fame>
+        <link>images/cards/saladin.png</link>
+    </Card>
+    <Card>
+        <name>Dante</name>
+        <military>2</military>
+        <intrique>9</intrique>
+        <fame>3</fame>
+        <link>images/cards/dante.png</link>
+    </Card>
+    <Card>
+        <name>King Arthur</name>
+        <military>8</military>
+        <intrique>2</intrique>
+        <fame>5</fame>
+        <link>images/cards/kingArthur.png</link>
+    </Card>
+    <Card>
+        <name>Joan of Arc</name>
+        <military>7</military>
+        <intrique>1</intrique>
+        <fame>7</fame>
+        <link>images/cards/joanOfArc.png</link>
+    </Card>
+    <Card>
+        <name>Vlad the Impaler</name>
+        <military>3</military>
+        <intrique>3</intrique>
+        <fame>9</fame>
+        <link>images/cards/vlad.png</link>
+    </Card>
+    <Card>
+        <name>William Tell</name>
+        <military>1</military>
+        <intrique>8</intrique>
+        <fame>6</fame>
+        <link>images/cards/williamTell.png</link>
+    </Card>
+    <Card>
+        <name>Marco Polo</name>
+        <military>3</military>
+        <intrique>7</intrique>
+        <fame>5</fame>
+        <link>images/cards/marcopolo.png</link>
+    </Card>
+    <Card>
+        <name>Matyas Hunyadi</name>
+        <military>7</military>
+        <intrique>3</intrique>
+        <fame>5</fame>
+        <link>images/cards/matyas.png</link>
+    </Card>
+    <Card>
+        <name>Genghis Khan</name>
+        <military>6</military>
+        <intrique>3</intrique>
+        <fame>5</fame>
+        <link>images/cards/genghisKhan.png</link>
+    </Card>
+</Cards>

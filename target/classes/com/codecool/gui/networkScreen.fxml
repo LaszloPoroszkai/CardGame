@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ap" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codecool.gui.NetworkController">
+    <children>
+        <ImageView fx:id="background" fitHeight="730.0" fitWidth="1292.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true">
+            <image>
+                <Image url="@../../../images/others/background.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="newServer" layoutX="513.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#createServer" text="Create Server" textAlignment="CENTER" />
+        <TextArea fx:id="serverInfo" layoutX="330.0" layoutY="226.0" prefHeight="104.0" prefWidth="476.0" />
+        <TextField fx:id="serverAddress" layoutX="482.0" layoutY="449.0" />
+        <Button layoutX="523.0" layoutY="489.0" mnemonicParsing="false" onMouseClicked="#joinServer" text="Join Server" />
+      <Button fx:id="return" layoutX="517.0" layoutY="545.0" mnemonicParsing="false" onMouseClicked="#backToMain" text="Back to Main" textAlignment="CENTER" />
+
+    </children>
+</AnchorPane>

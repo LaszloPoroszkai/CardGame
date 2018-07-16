@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codecool.gui.MainController">
+   <children>
+      <ImageView fx:id="background" fitHeight="730.0" fitWidth="1292.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../images/others/background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="107.0" layoutY="1.0" prefHeight="92.0" prefWidth="384.0" text="Medieval Warfare" textFill="WHITE">
+         <font>
+            <Font name="BlackChancery" size="51.0" />
+         </font>
+         <effect>
+            <DropShadow spread="0.5" />
+         </effect>
+      </Label>
+      <ImageView fitHeight="596.0" fitWidth="573.0" layoutX="157.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/others/menuBackDrop.png" />
+         </image>
+         <effect>
+            <DropShadow height="47.68" radius="26.305" width="59.54" />
+         </effect>
+      </ImageView>
+      <Label fx:id="startButton" layoutX="226.0" layoutY="229.0" onMouseClicked="#startGame" onMouseEntered="#startButtonHover" onMouseExited="#startButtonHoverOff" text="Start" textFill="#57240f">
+         <font>
+            <Font name="BlackChancery" size="41.0" />
+         </font>
+         <effect>
+            <GaussianBlur radius="0.0" />
+         </effect>
+      </Label>
+      <Label fx:id="networkButton" layoutX="198.0" layoutY="322.0" onMouseClicked="#networkOptions" onMouseEntered="#networkButtonHover" onMouseExited="#networkButtonHoverOff" text="Network" textFill="#57240f">
+         <font>
+            <Font name="BlackChancery" size="41.0" />
+         </font>
+         <effect>
+            <GaussianBlur radius="0.0" />
+         </effect>
+      </Label>
+      <Label fx:id="optionsButton" layoutX="212.0" layoutY="413.0" onMouseClicked="#enterOptions" onMouseEntered="#optionsButtonHover" onMouseExited="#optionsButtonHoverOff" text="Options" textFill="#57240f">
+         <font>
+            <Font name="BlackChancery" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="exitButton" layoutX="237.0" layoutY="509.0" onMouseClicked="#exit" onMouseEntered="#exitButtonHover" onMouseExited="#exitButtonHoverOff" text="Exit" textFill="#57240f">
+         <font>
+            <Font name="BlackChancery" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

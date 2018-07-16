@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codecool.gui.OptionController">
+   <children>
+      <ImageView fx:id="background" fitHeight="730.0" fitWidth="1292.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../images/others/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="534.0" fitWidth="944.0" layoutX="167.0" layoutY="117.0" opacity="0.53" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/others/backdrop.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="553.0" layoutY="29.0" text="Options" textFill="WHITE">
+         <font>
+            <Font name="BlackChancery" size="53.0" />
+         </font>
+         <effect>
+            <DropShadow spread="0.74" />
+         </effect>
+      </Label>
+      <Label layoutX="395.0" layoutY="135.0" text="Fullscreen" textFill="WHITE">
+         <font>
+            <Font name="BlackChancery" size="50.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="fullscreenCheck" layoutX="631.0" layoutY="152.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#setFullscreen" prefHeight="49.0" prefWidth="46.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </CheckBox>
+      <ImageView fx:id="backFromOptions" fitHeight="64.0" fitWidth="163.0" layoutX="195.0" layoutY="565.0" onMouseClicked="#goBackToMain" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/others/backButton.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
